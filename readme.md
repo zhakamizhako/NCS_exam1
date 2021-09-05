@@ -1,9 +1,10 @@
-####Engineering Technical Test (Cart)
+## Engineering Technical Test (Cart)
 
 Instructions
-1. Clone this repository (git clone reponamehere)
+1. Clone this repository (git clone https://github.com/zhakamizhako/NCS_exam1.git)
 2. Navigate through the project folder and install dependencies `npm install`
 3. Run node server `npm run start`
+4. Use a REST API client of your choice. (A YAML export is included for Insomnia REST API)
 
 These are your JSON Patterns that you can use to test the system
 
@@ -19,12 +20,12 @@ These are your JSON Patterns that you can use to test the system
 ```
 
 API
-products - Array
-promo code - String
+`products` - Array
+`promo code` - String
 
 Products structure:
-product_id - integer
-qty - integer
+`product_id` - integer
+`qty` - integer
 
 Currently, Pricing rules are predefined as an object inside api/controllers/purchaseController.js
 ```
